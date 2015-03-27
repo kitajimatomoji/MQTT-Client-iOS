@@ -1,0 +1,48 @@
+PODS:
+  - AFNetworking (2.5.1):
+    - AFNetworking/NSURLConnection (= 2.5.1)
+    - AFNetworking/NSURLSession (= 2.5.1)
+    - AFNetworking/Reachability (= 2.5.1)
+    - AFNetworking/Security (= 2.5.1)
+    - AFNetworking/Serialization (= 2.5.1)
+    - AFNetworking/UIKit (= 2.5.1)
+  - AFNetworking/NSURLConnection (2.5.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.1)
+  - AFNetworking/Security (2.5.1)
+  - AFNetworking/Serialization (2.5.1)
+  - AFNetworking/UIKit (2.5.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - GZIP (1.0.3)
+  - MQTTKit (0.1.0-next)
+  - OpenSSL (1.0.200)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.0)
+  - GZIP (~> 1.0)
+  - MQTTKit (from `https://github.com/mobile-web-messaging/MQTTKit.git`)
+  - OpenSSL (~> 1.0)
+
+EXTERNAL SOURCES:
+  MQTTKit:
+    :git: https://github.com/mobile-web-messaging/MQTTKit.git
+
+CHECKOUT OPTIONS:
+  MQTTKit:
+    :commit: 94926fb58df6b43d53040d656da441bb2de402e9
+    :git: https://github.com/mobile-web-messaging/MQTTKit.git
+
+SPEC CHECKSUMS:
+  AFNetworking: 8bee59492a6ff15d69130efa4d0dc67e0094a52a
+  GZIP: f27c434ffee5e9a9b34f4e9c19e91350fa8bbde1
+  MQTTKit: eca7270c24d16fe7865143d3e86f393f3275c544
+  OpenSSL: 4c7be3eca71139f52984542d8c4c0752154d26c3
+
+COCOAPODS: 0.35.0
